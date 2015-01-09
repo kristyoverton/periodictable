@@ -1,0 +1,136 @@
+* {
+	margin:0px;
+	border:0px;
+	padding:0px;
+	font-size:100%;
+	font-family: sans-serif;
+}
+
+.container {
+	background-color: #eeeeee;
+	width:1020px;
+	height:525px;
+	margin:20px auto;
+}
+	.container div {
+	display:inline-block;
+	vertical-align: top;
+	margin:-1px;
+	}
+
+.group-numbers {
+	width:1020px;
+	height:50px;
+}
+
+.period-numbers {
+	width:50px;
+	height:449px;
+	margin-left: 10px;
+}
+
+	.labels {
+		color:red;
+		margin-left:10px;
+	}
+
+	.labels li {
+		list-style: none;
+		display:inline-block;
+		width:50px;
+		height:40px;
+		margin:0px -1.5px;
+		padding-top:10px;
+		text-align:center;
+		vertical-align: top;
+
+	}
+
+.container .table {
+	width:923px;
+	height:474px;
+	margin-left:8px;
+	margin-top: 2px;
+}
+
+	.table .element {
+		width:45px;
+		height:46px;
+		border:1px solid black;
+		margin:1px 0.5px;
+		text-align: center;
+		border-radius: 5px;
+	}
+		.container .element p {
+		font-size:0.7em;
+		}
+
+		.container .element h1 {
+			color:#3120C9;
+		}
+
+
+	.groups-I-II {
+		width:100px;
+		height:350px;
+		margin-left: -10px;
+	}
+
+		.groups-I-II .element:first-child {
+			display:block;
+			margin-top: 1px;
+		}
+
+		.groups-I-II .element {
+			background-color:#60D7F2;
+		}
+
+	.table .groups-III-XII {
+		width:514px;
+		height:200px;
+		vertical-align: top;
+		margin-top: 148px;
+		margin-left:1px;
+	}
+		.table .groups-III-XII .element {
+			margin-left:0.25px;
+			background-color: #FD9A98;
+		}
+
+	.groups-XIII-XVIII {
+		width:303px;
+		height:350px;
+		vertical-align: top;
+	}
+		.groups-XIII-XVIII .element {
+			background-color: #FECB00;
+			margin: 1px 0px;
+		}
+			.groups-XIII-XVIII .element:first-child {
+				margin-left: 255px;
+			}
+
+	.container .bottom-key {
+		width:100px;
+		height:100px;
+		margin-top:25px;
+	}
+
+		.bottom-key .labels {
+			font-size: 0.5em;
+		}
+
+		.bottom-key .labels span li{
+			width:10px;
+			margin-left: 29px;
+		}	
+
+	.container .lanthanides-and-actinides {
+		width:720px;
+		height:100px; 
+		margin-top:25px;
+	}
+		.container .lanthanides-and-actinides .element {
+			background-color: #1FCA21;
+			margin-right: 0px;
+		}
